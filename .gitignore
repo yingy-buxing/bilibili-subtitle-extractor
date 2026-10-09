@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+*.har
+*.cookies
+.env
+.env.*
+.venv/
+__pycache__/
+dist/

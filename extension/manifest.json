@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "B站字幕提取（本地）",
+  "version": "1.1.0",
+  "description": "在已登录的B站视频页点击插件，提取当前视频字幕并下载TXT或SRT。",
+  "permissions": ["activeTab", "scripting"],
+  "action": { "default_title": "提取当前B站字幕", "default_popup": "popup.html" },
+  "devtools_page": "devtools.html"
+}

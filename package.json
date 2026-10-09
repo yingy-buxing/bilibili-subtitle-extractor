@@ -1,0 +1,11 @@
+{
+  "name": "bilibili-subtitle-extractor",
+  "version": "1.1.0",
+  "private": true,
+  "description": "在已登录的B站视频页一键提取字幕并导出TXT、SRT和JSON",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node tests/core.test.js && node tests/popup.test.js"
+  }
+}
